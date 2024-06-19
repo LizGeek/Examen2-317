@@ -3,7 +3,7 @@ import numpy as np
 
 # Leer las imágenes
 img1 = cv2.imread('imagen1.jpeg')
-img2 = cv2.imread('imagen2.jpeg')
+img2 = cv2.imread('imagen2.jpg')
 
 # Redimensionar la segunda imagen para que tenga el mismo tamaño que la primera
 img2 = cv2.resize(img2, (img1.shape[1], img1.shape[0]))
